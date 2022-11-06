@@ -1,0 +1,39 @@
+/*
+* Name: Dibujo Digital
+* Description: Blog
+* Author: @elarsoft.es@gmail.com
+* License URI: -_-
++ Version: v1.0
+*/
+@import "./header.scss";
+@import "./hero.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./article.scss";
+
+:root {
+  --primario: hsl(39, 91%, 58%);
+  --hero: hsl(32, 16%, 96%);
+  --blue: hsl(205deg 12% 20%);
+  --black: hsl(120, 1%, 17%);
+  --white: hsl(0, 0%, 100%);
+  --whitegray: hsl(0, 0%, 32%);
+  --fondo: hsl(210, 25%, 98%);
+  font-size: 16px;
+  --wrapperSpace: 1.5em;
+}
+html {
+  // overflow: hidden;
+}
+body {
+  font-family: "DM Serif Display", serif;
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--fondo);
+}
+.wrapper {
+  max-width: calc(1115px + 10em);
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}

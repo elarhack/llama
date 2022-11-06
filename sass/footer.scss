@@ -1,0 +1,51 @@
+.copy {
+  background: var(--primario);
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 400;
+  color: var(--balck);
+  padding: 1em;
+  margin: 0;
+}
+.footer {
+  width: 100%;
+  background: var(--black);
+  color: var(--hero);
+  float: left;
+  border-top: 4px solid var(--jugo);
+  &__content {
+    padding: 0.5em;
+    float: left;
+    .title {
+      font-size: 1.5em;
+      margin: 0 1em;
+      color: var(--jugo);
+    }
+    img {
+      float: left;
+      margin: 0.2em;
+    }
+
+    &__categoria {
+      a {
+        text-decoration: none;
+        color: var(--black);
+      }
+    }
+    &__redes {
+      img {
+        width: 25px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100%;
+      &__logo {
+        p {
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
